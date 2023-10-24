@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "https://expense-backend-app.onrender.com/";
+const BACKEND_URL = "https://tiny-pink-camel-wig.cyclic.app/";
 
 //add new expense
 const createExpense = async (expData) => {
