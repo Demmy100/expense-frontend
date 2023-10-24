@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:8000/";
+const BACKEND_URL = "https://expense-backend-app.onrender.com/";
 
 //add new expense
 const createExpense = async (expData) => {
