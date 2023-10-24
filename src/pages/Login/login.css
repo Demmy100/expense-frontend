@@ -1,0 +1,57 @@
+.form-con {
+    width: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+h2 {
+    margin-bottom: .5rem;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form .email-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-con {
+    margin-top: .5rem;
+}
+
+input {
+    outline: none;
+    width: 50%;
+    padding: 15px 5px;
+    text-indent: 1px;
+    border-radius: 5px;
+    border: 1px solid #2c0d5f;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    padding: 15px 5px;
+    text-indent: 1px;
+    border-radius: 5px;
+    border: 1px solid #2c0d5f;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #2D2D70;
+    color: #fff;
+    border-radius: 5px;
+}

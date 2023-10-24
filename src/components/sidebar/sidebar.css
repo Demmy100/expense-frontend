@@ -1,0 +1,49 @@
+.layout {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    color: #2c0d5f;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100vh;
+    flex-shrink: 0;
+    overflow: auto;
+    background-color: #2c0d5f;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #2c0d5f;
+    transition: all 0.5s;
+    height: 70px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 70px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.bars:hover {
+    color: #fff;
+    font-size: 27px;
+}
