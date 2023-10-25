@@ -14,8 +14,11 @@ const Dashboard = () => {
 
   // Fetch income and expense data when the component mounts
   useEffect(() => {
-    dispatch(fetchTransactionHistory(user?._id));
-  }, [dispatch, user?._id]);
+    if (user) {
+      // Dispatch the fetchTransactionHistory thunk with the user ID
+      dispatch(fetchTransactionHistory(user._id));
+    }
+  }, [dispatch, user]);
 
   // Selectors for total income and total expense
   const totalIncome =
